@@ -1,0 +1,5 @@
+com/firebase/demo/firebasedemo/models/Member.class
+com/firebase/demo/firebasedemo/FirebasedemoApplication.class
+com/firebase/demo/firebasedemo/configs/FirebaseConfig.class
+com/firebase/demo/firebasedemo/controllers/MemberController.class
+com/firebase/demo/firebasedemo/services/FireBaseService.class
