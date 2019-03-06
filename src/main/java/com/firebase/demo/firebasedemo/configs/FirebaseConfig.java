@@ -12,7 +12,7 @@ public class FirebaseConfig {
         GoogleCredentials credentials = GoogleCredentials.getApplicationDefault();
         FirestoreOptions options = FirestoreOptions.newBuilder()
                 .setCredentials(credentials)
-                .setProjectId("fundee-project")
+                .setProjectId("java-firestore-demo")
                 .setTimestampsInSnapshotsEnabled(true).build();
         Firestore db = options.getService();
         return db;
